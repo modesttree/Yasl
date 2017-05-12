@@ -4,8 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using Yasl.Internal;
 
-namespace ModestTree.Util
+namespace Yasl
 {
     public static class SerializerRegistry
     {

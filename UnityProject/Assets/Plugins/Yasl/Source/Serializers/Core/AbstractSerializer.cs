@@ -2,8 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Xml.Linq;
 using System.Linq;
+using Yasl.Internal;
 
-namespace ModestTree.Util
+namespace Yasl
 {
     public class AbstractSerializer<T> : ISerializer
         where T : class

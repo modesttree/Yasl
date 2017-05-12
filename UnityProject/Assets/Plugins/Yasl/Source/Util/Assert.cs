@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ModestTree
+namespace Yasl.Internal
 {
     public static class Assert
     {

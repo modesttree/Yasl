@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Xml.Linq;
 using System.Linq;
 
-namespace ModestTree.Util
+namespace Yasl
 {
     public class TimeSpanSerializer : StructSerializer<TimeSpan>
     {

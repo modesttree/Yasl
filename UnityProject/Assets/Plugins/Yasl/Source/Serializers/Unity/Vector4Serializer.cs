@@ -4,7 +4,7 @@ using System.Xml.Linq;
 using System.Linq;
 using UnityEngine;
 
-namespace ModestTree.Util
+namespace Yasl
 {
     public class Vector4Serializer : StructSerializer<Vector4>
     {

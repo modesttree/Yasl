@@ -1,6 +1,7 @@
 using System;
+using Yasl.Internal;
 
-namespace ModestTree.Util
+namespace Yasl
 {
     public class DeprecatedSerializer : ISerializer
     {
@@ -44,4 +45,3 @@ namespace ModestTree.Util
         }
     }
 }
-

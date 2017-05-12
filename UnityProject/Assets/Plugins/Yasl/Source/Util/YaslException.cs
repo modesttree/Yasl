@@ -1,7 +1,6 @@
 using System;
-using ModestTree;
 
-namespace ModestTree
+namespace Yasl
 {
     [System.Diagnostics.DebuggerStepThrough]
     public class YaslException : Exception

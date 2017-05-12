@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
+using Yasl.Internal;
 
-namespace ModestTree.Util
+namespace Yasl
 {
     public class DictionarySerializer<TKey, TValue> : ISerializer
     {

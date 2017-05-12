@@ -1,6 +1,6 @@
 using System;
 
-namespace ModestTree.Util
+namespace Yasl
 {
     public class SerializationException : Exception
     {

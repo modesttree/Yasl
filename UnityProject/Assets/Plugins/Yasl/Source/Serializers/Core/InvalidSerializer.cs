@@ -1,6 +1,7 @@
 using System;
+using Yasl.Internal;
 
-namespace ModestTree.Util
+namespace Yasl
 {
     public class InvalidSerializer : ISerializer
     {

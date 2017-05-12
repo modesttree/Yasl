@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 
-namespace ModestTree.Util
+namespace Yasl
 {
     public class ListSerializer<T> : ISerializer
     {

@@ -5,8 +5,9 @@ using System.Xml.Linq;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.IO;
+using Yasl.Internal;
 
-namespace ModestTree.Util
+namespace Yasl
 {
     public class BinarySerializationReader : ISerializationReader
     {

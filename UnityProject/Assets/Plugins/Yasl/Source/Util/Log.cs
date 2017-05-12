@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics;
 
-namespace ModestTree
+namespace Yasl.Internal
 {
     // Simple wrapper around unity's logging system
     public static class Log

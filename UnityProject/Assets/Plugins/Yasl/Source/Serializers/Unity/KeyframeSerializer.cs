@@ -1,7 +1,7 @@
-using ModestTree.Util;
+using Yasl;
 using UnityEngine;
 
-namespace ModestTree.Modest3d
+namespace Yasl
 {
     public class KeyframeSerializer : StructSerializer<Keyframe>
     {

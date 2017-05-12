@@ -3,7 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Collections;
 
-namespace ModestTree.Util
+namespace Yasl
 {
     public class ArraySerializer : ISerializer
     {

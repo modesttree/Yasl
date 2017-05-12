@@ -1,6 +1,6 @@
 using System;
 
-namespace ModestTree.Util
+namespace Yasl
 {
     public abstract class StructSerializer<T> : ISerializer
         where T : struct

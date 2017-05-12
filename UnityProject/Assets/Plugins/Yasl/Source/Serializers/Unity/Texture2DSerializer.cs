@@ -1,8 +1,9 @@
 using System;
-using ModestTree.Util;
+using Yasl;
 using UnityEngine;
+using Yasl.Internal;
 
-namespace ModestTree.Modest3d
+namespace Yasl
 {
     public class Texture2DSerializer : Serializer<Texture2D>
     {

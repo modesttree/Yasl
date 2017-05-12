@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using ModestTree.Util;
+using Yasl;
 
-namespace ModestTree
+namespace Yasl.Internal
 {
     public static class DictionaryExtensions
     {

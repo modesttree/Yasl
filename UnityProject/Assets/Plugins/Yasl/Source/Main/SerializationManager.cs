@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Xml.Linq;
 using System.Linq;
+using Yasl.Internal;
 
-namespace ModestTree.Util
+namespace Yasl
 {
     public static class SerializationManager
     {

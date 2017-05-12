@@ -1,7 +1,8 @@
 using System;
 using System.Xml.Linq;
+using Yasl.Internal;
 
-namespace ModestTree.Util
+namespace Yasl
 {
     public static class SerializationExtensionMethods
     {
