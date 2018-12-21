@@ -162,7 +162,7 @@ namespace Yasl
             }
             else if (knownType == typeof(float))
             {
-                CurrentGroup.Value = ((float)value).ToString("R");
+                CurrentGroup.Value = ((float)value).ToString("R", CultureInfo.InvariantCulture);
             }
             else if (knownType == typeof(double))
             {

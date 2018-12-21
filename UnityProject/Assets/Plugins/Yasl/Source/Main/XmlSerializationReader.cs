@@ -150,7 +150,7 @@ namespace Yasl
             }
             else if (knownType == typeof(float))
             {
-                return float.Parse(CurrentGroup.Value);
+                return float.Parse(CurrentGroup.Value, CultureInfo.InvariantCulture);
             }
             else if (knownType == typeof(double))
             {
@@ -197,6 +197,9 @@ namespace Yasl
             var root = _doc.Root;
             long rootId = (long)root.GetAttribute("id");
             _version = (int)root.GetAttribute("version");
+
+            Assert.That(_version <= SerializationVersion.Value,
+                "Cannot open given file because it was created in a future version!  File version: {0}, supported version: {1}", _version, SerializationVersion.Value);
 
             Assert.That(_rootReferences.IsEmpty());
 
